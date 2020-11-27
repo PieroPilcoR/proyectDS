@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;500;600;700&display=swap');
+body{
+	/*background-color: #13ADCA;*/
+	background-color: #305886;
+	color: #fff;
+}
+*{
+	font-family: Arial Narrow, Ginebra;
+}
+#container{
+	width: 90%;
+	margin: 20px auto;
+}
+#start-workbook{
+	font-family: Arial,x-locale-body,sans-serif;
+	margin-top: 35px;
+	margin-bottom: 20px;
+}
+#start-workbook #start-title{
+	font-family: 'Oswald', sans-serif;
+	font-size: 2em;
+}
+#allPage{
+	display: grid;
+	grid-gap: 15px;
+	grid-template: repeat(2, 150px) / repeat(2, 1fr);
+}
+#obtain{
+	position: relative;
+	box-sizing: border-box;
+	grid-row: span 2;
+	background: #00D1FD;
+	box-shadow: 0px 1px 0px #FFEC00, 1px 2px 0px #FFEC00, 2px 3px 0px #FFEC00, 3px 4px 0px #FFEC00;
+	padding: 20px;
+	margin-bottom: 4px;
+    margin-right: 15px;
+}
+#obtain #title-form{
+	font-size: 1.8em;
+}
+#obtain small{
+	margin: 12px 0px 18px;
+	color: #021F36;
+}
+.title-work{
+	text-transform: capitalize;
+	width: 99%;
+	height: 30px;
+	border: none;
+	outline: none;
+	font-size: 15px;
+}
+.title-work-box{
+	margin: 10px 0px;
+}
+.colors{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: flex;
+	flex-flow: row wrap;
+}
+.active{
+	border: #fff 2px solid !important;
+}
+.txt-color{
+	display: none;
+}
+/*[class^="task-"]{*/
+.color{
+	padding: 20px!important;
+	margin-right: 20px;
+	border: #000 2px solid;
+}
+.red{
+	background-color: red;
+}
+.green{
+	background-color: green;
+}
+.yellow{
+	background-color: yellow;
+}
+/*
+#add{
+	background: #f00;
+	color: inherit;
+}*/
+.calendar{
+	width: 80%;
+    margin-right: 9px;
+    height: 26px;
+}
+[type="submit"]#add{
+	font-family: inherit;
+	background: #f00;
+	color: inherit;
+	border: none;
+	/*padding: 4px;*/
+	padding: 8px 10px;
+    font-size: 15px;
+}
+#obtain #alert{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.5em;
+	letter-spacing: 1px;
+	width: 100%;
+	background-color: red;
+}
+.card{
+	text-transform: capitalize;
+	box-sizing: border-box;
+	height: 150px;
+	background: #3A5950;
+	border: #f212c3 solid;
+	/*color: #f212c3;*/
+	color: #fff;
+	padding: 5px 20px;
+	box-shadow:0px 25px 19px -15px #04425d;
+	-moz-box-shadow:0px 25px 19px -15px #04425d;
+	-webkit-box-shadow:0px 25px 19px -15px #04425d;
+}
+.delete-work{
+	background: #f00;
+	color: inherit;
+	font-family: inherit;
+	border: none;
+	padding: 4px;
+}
+.deleted{
+	background-color: blue;
+}
+.added{
+	background: green;
+}
+.advertisement{
+	margin-top: 20px;
+	background-color: red;
+}
